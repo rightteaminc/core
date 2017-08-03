@@ -1,0 +1,12 @@
+# These requirements are installed to ./app/external
+
+mock
+nose
+nose-exclude
+rednose
+coverage
+git+https://github.com/Trii/NoseGAE.git
+yanc
+PyCrypto==2.6
+git+git://github.com/digibodies/core.git@v0.0.1#egg=core
+PyJWT
