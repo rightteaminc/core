@@ -20,3 +20,11 @@ class DoesNotExistException(Exception):
     Internal exception when an object cannot be found
     Any handler catching this error should return a 404 response code
     """
+
+
+class ConflictException(Exception):
+    """
+    Internal Exception when an object could not be created due to conflict, such as when the object
+    already exists.
+    Any handler catching this error should return a 409 response code
+    """
